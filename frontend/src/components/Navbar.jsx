@@ -11,17 +11,18 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-inner">
-        {/* Brand / Logo with CHARUSAT logo */}
+        {/* Brand section: CHARUSAT logo + divider + app name */}
         <div className="navbar-brand">
           <img
-            src="https://charusat.ac.in/assets/img/logo.png"
+            src="/charusat-logo.webp"
             alt="CHARUSAT Logo"
             className="navbar-charusat-logo"
           />
-          <div className="navbar-brand-icon">
-            <Library size={18} />
+          <span className="navbar-divider"></span>
+          <div className="navbar-app-name">
+            <Library size={16} />
+            <span>LibraryMS</span>
           </div>
-          LibraryMS
         </div>
 
         {/* Navigation Links using React Router Link */}

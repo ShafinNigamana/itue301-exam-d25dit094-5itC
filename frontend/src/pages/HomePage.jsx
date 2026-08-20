@@ -40,7 +40,7 @@ function HomePage() {
       <div className="stats-grid fade-in fade-in-delay-2">
         <div className="stat-card">
           <div className="stat-icon books">
-            <BookOpen size={24} color="#4F46E5" />
+            <BookOpen size={24} color="#1B3A8C" />
           </div>
           <div className="stat-number">6</div>
           <div className="stat-label">Total Books</div>
@@ -56,7 +56,7 @@ function HomePage() {
 
         <div className="stat-card">
           <div className="stat-icon borrowed">
-            <ClipboardList size={24} color="#F59E0B" />
+            <ClipboardList size={24} color="#E87722" />
           </div>
           <div className="stat-number">42</div>
           <div className="stat-label">Active Borrowings</div>
